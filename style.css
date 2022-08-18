@@ -1,0 +1,352 @@
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+    background-color: black;
+}
+/* hero background image */
+.bgimage {
+    height: 100vh;
+    background: url('./images/hero.jpg');
+    background-size: cover;
+    position: relative;
+    background-size: 100% 100%;
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+/* spacing on all sections */
+#about,
+#services,
+#portfolio,
+#contact,
+#skills,
+#certificate,
+#cv,
+#testimonial,
+#choose {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+#contact {
+    padding-bottom: 4rem;
+}
+/* about section image css */
+.imageAboutPage {
+    width: 100%;
+}
+/* social media icons styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-facebook:hover,
+.fa-instagram:hover,
+.fa-twitter:hover,
+.fa-linkedin:hover,
+.fa-github:hover,
+.fa-envelope:hover,
+.fa-phone:hover,
+.fa-youtube:hover,
+.fa-whatsapp:hover,
+.fa-upwork:hover,
+.fa-freelancer{
+    color: #f60606;
+}
+.fab {
+    color: #000000;
+}
+.fa{
+  color:#000000;
+}
+/* footer styling */
+#footer {
+    background-color: #808080;
+    text-align: center;
+}
+
+
+
+
+
+/*--- progress bar---*/
+
+#skills span{
+  font-weight: bold;
+}
+
+
+
+
+.html {
+    animation: html 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: rgb(239, 195, 137);
+    height: 30px;
+    width: 0;
+  }
+.css {
+    animation: css 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: rgb(246, 3, 3);
+    height: 30px;
+    width: 0;
+  }
+.js {
+    animation: js 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: rgb(220, 244, 9);
+    height: 30px;
+    width: 0;
+  }
+
+.react {
+    animation: react 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: rgb(6, 215, 243);
+    height: 30px;
+    width: 0;
+  }
+.py {
+    animation: py 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: rgb(248, 4, 191);
+    height: 30px;
+    width: 0;
+  }
+
+.django{
+    animation: django 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: rgb(8, 81, 251);
+    height: 30px;
+    width: 0;
+  }
+.mern {
+    animation: mern 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: rgb(2, 249, 113);
+    height: 30px;
+    width: 0;
+  }
+.wordpress {
+    animation: wordpress 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: rgb(171, 7, 241);
+    height: 30px;
+    width: 0;
+  }
+.shopify {
+    animation: shopify 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: rgb(105, 62, 154);
+    height: 30px;
+    width: 0;
+  }
+.wix {
+    animation: wix 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: rgb(241, 129, 230);
+    height: 30px;
+    width: 0;
+  }
+.ad {
+    animation: ad 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: rgb(204, 118, 126);
+    height: 30px;
+    width: 0;
+  }
+.dm {
+    animation: dm 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: rgb(188, 228, 199);
+    height: 30px;
+    width: 0;
+  }
+.wd {
+    animation: wd 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: rgb(49, 130, 162);
+    height: 30px;
+    width: 0;
+  }
+
+
+
+.english{
+  animation: english 3s normal forwards;
+  box-shadow: 0 10px 40px -10px #fff;
+  border-radius: 100px;
+  background: rgb(140, 4, 244);
+  height: 30px;
+  width: 0;
+}
+.bangla{
+  animation: bangla 3s normal forwards;
+  box-shadow: 0 10px 40px -10px #fff;
+  border-radius: 100px;
+  background: rgb(4, 244, 200);
+  height: 30px;
+  width: 0;
+}
+.communication{
+  animation: communication 3s normal forwards;
+  box-shadow: 0 10px 40px -10px #fff;
+  border-radius: 100px;
+  background: rgb(4, 156, 244);
+  height: 30px;
+  width: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*progress bar animation*/
+
+  @keyframes html  {
+    0% { width: 0; }
+    100% { width: 90%; }
+  }
+  @keyframes css  {
+    0% { width: 0; }
+    100% { width: 90%; }
+  }
+  @keyframes js  {
+    0% { width: 0; }
+    100% { width: 90%; }
+  }
+  @keyframes react  {
+    0% { width: 0; }
+    100% { width: 90%; }
+  }
+  @keyframes py  {
+    0% { width: 0; }
+    100% { width: 90%; }
+  }
+  @keyframes django  {
+    0% { width: 0; }
+    100% { width: 90%; }
+  }
+  @keyframes mern  {
+    0% { width: 0; }
+    100% { width: 90%; }
+  }
+  @keyframes wordpress  {
+    0% { width: 0; }
+    100% { width: 90%; }
+  }
+  @keyframes shopify  {
+    0% { width: 0; }
+    100% { width: 90%; }
+  }
+  @keyframes wix  {
+    0% { width: 0; }
+    100% { width: 90%; }
+  }
+  @keyframes ad  {
+    0% { width: 0; }
+    100% { width: 90%; }
+  }
+  @keyframes dm  {
+    0% { width: 0; }
+    100% { width: 90%; }
+  }
+  @keyframes wd  {
+    0% { width: 0; }
+    100% { width: 90%; }
+  }
+
+
+
+
+  @keyframes english  {
+    0% { width: 0; }
+    100% { width: 90%; }
+  }
+  @keyframes bangla  {
+    0% { width: 0; }
+    100% { width: 90%; }
+  }
+  @keyframes communication  {
+    0% { width: 0; }
+    100% { width: 90%; }
+  }
+
+
+
+
+.form-control{
+  overflow: scroll;
+}
+
+
+body{
+  overflow: scroll;
+}
+
+
+
+
+
+
+
+
+.cardServicesText:hover{
+  box-shadow: 0 0 80px 0px rgba(0,0,0,0.5);
+}
+.cardPortfolioContent:hover{
+  box-shadow: 0 0 80px 0px rgba(0,0,0,0.1);
+}
+
+
+
+
+
+
+
+
+.card-footer{
+  text-align: center;
+  font-size: 2rem;
+}
+.choose{
+  text-align: center;
+}
+
+
